@@ -1,0 +1,1093 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px; /* Adjust the gap as needed */
+    background-color: #fff;
+    opacity: 1;
+    align-items: center;
+    font-family: Helvetica;
+    width: 100vw;
+    height: 128px;
+    justify-content: space-evenly;
+  }
+  
+  .left {
+    
+    justify-content: center;
+    display: flex;
+    
+    color: #354463;
+    font: normal bold 22px/28px Helvetica;
+    text-align: left;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .middle {
+    display: flex;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .m-card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    color: #354463;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .right {
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right > button {
+    position: relative;
+    width: 15vw;
+    height: 48px;
+    font: normal bold 2vw Helvetica;
+    border-radius: 34px;
+    border: none;
+    color: #354463;
+    font-size: 16px;
+    padding: 11px 26px;
+    background: #C1F7D5;
+    
+  }
+
+  .first-page{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    background-color: #354463;
+    background-image: url('/assets/annie-spratt-135307-unsplash.png');
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .fir-left{
+    display: flex;
+    position: relative;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .fir-rig{
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .white-box{
+    display: flex;
+    position: relative;
+    height: 44vh;
+    width: 40vw;
+    background-color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 2vw;
+    flex-direction: column;
+
+  }
+  .wi-bold{
+    font: normal normal bold 3vw Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    height: 90%;
+  }
+  .wi-subs{
+    text-decoration: underline;
+font: normal normal 300 16px/24px Helvetica;
+letter-spacing: -0.16px;
+color: #354463;
+    height: 10%;
+  }
+
+  .hastag img{
+    height: 30vh;
+    width: 30vw;
+  }
+
+
+  .GREEN-NAV {
+    position: relative;
+    background-color: #c1f7d5;
+    opacity: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font: Helvetica;
+    width: 100vw;
+    height: 240px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .green-span{
+    display: flex;
+    justify-content: space-between; 
+    height: 70%;
+    width: 70%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .top {
+    text-align: left;
+    height: 40%;
+    width: 100%;
+    font-family:  Helvetica;
+    font-size: 2rem;
+    align-items: flex-start;
+  
+    color: #354463;
+    opacity: 1;
+  }
+  
+  .des {
+    height: 60%;
+    width: 100%;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+  }
+
+
+  .third-page{
+    display: flex;
+    position: relative;
+    height: 1279px;
+    width: 100vw;
+    background-color: #354463;
+    padding: 8vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .third-small-text{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    
+    align-items: center;
+    position: relative;
+    background-color: white;
+    
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+  }
+
+  .third-text{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    text-align: left;
+    font: normal normal bold 44px/56px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+
+  .third-tribox{
+    display: flex;
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+
+  .third-whitebox{
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 40vw;
+    background-color: #FFFFFF;
+    padding: 5vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  .white-img{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    top: -10%;
+    background-color: #C1F7D5;
+    
+    
+  }
+  .tri-text{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    
+    flex-direction: column;
+    padding: 5%;
+    justify-content: space-between;
+    align-self: flex-end;
+    
+  }
+
+  .tri-bold{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    
+font: normal normal bold 2vw Helvetica;
+letter-spacing: 0px;
+color: #354463;
+justify-content: center;
+
+  }
+
+  .tri-subs{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+font: normal normal 300 1vw Helvetica;
+letter-spacing: -0.16px;
+color: #354463;
+
+  }
+
+  .tri-button{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+  }
+
+  .tri-button button{
+    position: relative;
+    display: flex; 
+    width: 12vw;
+    height: 3.5vw;
+    border-radius: 34px;
+    border: none;
+    
+    padding: 11px 23px 11px 23px;
+    background: #84f4ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 1vw Helvetica;
+  }
+
+
+.GREEN-NAV-last{
+    background-color: #c1f7d5;
+    opacity: 1;
+    display: flex; /* Use flex instead of grid */
+    
+    font: Helvetica;
+    top: 6150px;
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    padding: 5vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+  
+  .green-lef {
+    width: 50%; /* Half of the parent container */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+  }
+  
+  .green-rig {
+    width: 50%; /* Half of the parent container */
+    height: 70px;
+    max-width: 100%; /* Set a maximum width to prevent overflow */
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .green-wit {
+    font: normal normal 18px/22px Helvetica;
+    letter-spacing: 1px;
+    width: 252px;
+    height: 48px;
+    border-radius: 34px;
+    border: none;
+    background: #ffffff;
+    color: #354463;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .green-blue-button {
+    width: 160px;
+    height: 48px;
+    font: normal normal 18px/22px Helvetica;
+    border-radius: 34px;
+    border: none;
+    background: #84f4ad;
+    position: relative;
+    display: flex; /* Use flexbox to center text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center; /* This can be removed */
+    text-justify: inherit; /* This can be removed */
+  }
+  
+  
+  .input-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .green-lef {
+    width: 50%; /* Adjust as needed */
+    float: left;
+  }
+  
+  .green-rig {
+    height: 70px;
+    max-width: 100%;
+    /* display: grid; */
+    align-items: center;
+    padding: 0px 20px;
+  }
+  
+  
+  .bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px; /* Reduce padding for smaller screens */
+    flex-wrap: wrap;
+  }
+  
+  .b-title {
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+    width: 20vh;
+    height: 8vh;
+  }
+  
+  .b-cards {
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 15vh;
+    margin: 10px; /* Add spacing between cards on all screens */
+  }
+  
+  .card-top {
+    font: normal normal normal 2vh Helvetica;
+    border-bottom: 2px solid #354463;
+  }
+  
+  .card-ds {
+    font: normal normal 300 1.5vh Helvetica;
+    letter-spacing: -0.14px;
+  }
+  
+  .b-image {
+    display: flex;
+    position: relative;
+    width: 20%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  }
+  
+  
+
+.fourth-page {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 1279px;
+    background-image: url("assets/3r.png");
+    opacity: 1;
+    z-index: 3;
+    flex-wrap: wrap;
+  }
+  
+  .fourth-left {
+    display: flex;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .four-left-text{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font: normal normal normal 4vw 'Your-Preferred-Font', cursive;
+
+letter-spacing: 0px;
+color: #FFFFFF;
+padding: 10vw;
+box-sizing: border-box;
+
+  }
+  
+  .button-g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 18px/22px Helvetica;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 34px;
+    border: none;
+    background: #84f4ad;
+    color: #354463;
+    font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px;
+    align-self: center;
+  }
+  
+  .fourth-right {
+    position: relative;
+    display: flex;
+    width: 50%;
+    
+    
+    height: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+    padding: 5vh;
+    
+  }
+  
+  .fourth-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+
+    width: 60vw;
+    height: 30vh;
+    background: #ffffff;
+    padding: 5vh;
+    box-sizing: border-box;/* You can adjust the padding value as needed */
+  }
+  
+  .big {
+    position: inherit;
+    text-align: left;
+    font: normal normal bold 3vw Helvetica;
+    justify-content: center;
+    /* Center the text horizontally within the box */
+  }
+  
+  .fourth-p {
+    position: inherit;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    justify-content: center;
+    /* Center the text horizontally within the box */
+  }
+  
+
+
+  .fifth-page{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10vh 10vw;
+    overflow: hidden;
+  }
+
+  .fif-left{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    padding-left: 10vh;
+
+
+  }
+  .fif-blue-box{
+    
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #354463;
+    
+    align-self: center; /* Push the box to the bottom */
+    z-index: 2;
+    padding: 5%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    
+  }
+
+  .blue-b-text{
+    display: flex;
+    position: relative;
+    height: 80%;
+    text-align: left;
+font: normal normal bold 3vh Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+  }
+  .blue-s-text{
+    display: flex;
+    position: relative;
+    height: 10%;
+    text-align: left;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+color: #FFFFFF;
+
+  }
+
+  .fif-rig{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(/assets/lady-baby.png);
+    z-index: 1; /
+
+  }
+
+  .fif-button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: normal normal bold 1.5vw Helvetica;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 34px;
+    border: none;
+    background: #c1f7d5;
+    color: #354463;
+    font-size: 16px;
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+  }
+
+.sixth-page{
+    display: flex;
+    position: relative;
+    height: 1726px;
+    width: 100%;
+    background-color: #354463;
+    padding: 10vh 10vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  
+
+.six-main-text{
+    display: flex;
+    position: relative;
+    height: 10%;
+    width: 70%;
+    text-align: left;
+font: normal normal normal 6vw Flood Std;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin: 5%;
+
+}
+
+.six-main-div1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 35%;
+
+    justify-content: space-between;
+}
+
+.six-main-div2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 35%;
+
+    justify-content: space-between;
+}
+
+.six-img{
+    display: flex;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-image: url(/assets/tree-planting.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.six-div-text{
+
+    display: flex;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.six-small-box{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    
+}
+.six-mid-box1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    text-align: left;
+                font: normal normal bold 44px/56px Helvetica;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+}
+
+.six-mid-box2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    text-align: left;
+                font: normal normal 300 20px/32px Helvetica;
+                letter-spacing: -0.4px;
+                color: #FFFFFF;
+}
+
+.square-box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: normal normal bold 1.5vw Helvetica;
+    width: 20vh;
+    height: 5vh;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+color: #354463;
+}
+
+
+.six-small-box > button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: normal normal bold 1.5vw Helvetica;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 34px;
+    border: none;
+    background: #c1f7d5;
+    color: #354463;
+    font-size: 16px;
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  @media (max-width: 768px) {
+    body{
+        width: 99vw;
+        height: auto;
+    }
+    nav {
+      grid-template-columns: 1fr 1fr; /* Two columns, left and middle */
+      grid-template-rows: 1fr 1fr;
+      
+      height: 30vh;
+      
+    }
+    .middle{
+      
+      flex-direction: column;
+      
+      
+    }
+  
+    .right {
+      display: flex; /* Display the "right" content in a new row */
+      justify-content: center;
+      grid-row: 2; /* Place it in the second row */
+      width: 200%; /* Full width */
+    }
+    .right > button{
+      width: 100%;
+    }
+    .first-page{
+      
+      height: auto;
+      flex-direction: column-reverse;
+      padding: 3vh;
+      justify-content: space-around;
+      background-size: cover;
+      background-position: right;
+      box-sizing: border-box;
+    }
+    .fir-left{
+        width: 100%;
+        height: 60%;
+    }
+    .fir-rig{
+        padding: 0;
+    }
+    .fir-rig img{
+        padding: 0;
+        width: 30vh;
+    }
+    .wi-bold{
+        height: 60vw;
+        font: normal normal bold 6vw Helvetica;
+    }
+    .white-box{
+        align-items: center;
+        
+        width: 80%;
+        height: 60vw;
+    }
+    .wi-subs{
+        font: normal normal 3vw Helvetica;
+        
+    }
+
+    .GREEN-NAV {
+        height: 328px;
+        padding: 0; /* Adjust the height as needed */ /* Adjust the padding as needed */
+      }
+    
+      .green-span .card {
+        width: 50%;
+      }
+
+      .card{
+        height: auto;
+      }
+    
+
+    .top{
+        font: normal normal bold 18px/22px Helvetica;
+    }
+    .des{
+        font: normal normal 300 14px/20px Helvetica;
+    }
+
+    .third-page{
+        height: 200vh;
+    }
+
+    .third-small-text {
+        align-self:center ;
+        font-size: 12px;
+        margin: 5vh;
+      }
+    
+      .third-text {
+        height: auto;
+        text-align: center;
+font: normal normal bold 2vh  Helvetica;
+letter-spacing: 0px;
+      }
+    
+      .tri-bold {
+        font-size: 16px;
+      }
+    
+      .tri-subs {
+        font-size: 12px;
+      }
+    
+      .tri-button button {
+        padding: 0;
+        height: 3vh;
+        font-size: 2vw;
+      }
+    
+      .third-tribox {
+        width: 90%;
+        height: 90%;
+        margin-top: 10vh ;
+      }
+    
+      .third-whitebox {
+        height: 30%;
+        width: 90%;
+        margin: 10px auto;
+        padding: 3%;
+
+      }
+    
+      .white-img {
+        height: 30%;
+        top: -5%;
+        width: 95%;
+      }
+      .tri-button{
+        width: 50%;
+      }
+      .tri-text{
+        align-items: center;
+      }
+
+    .tri-button button{
+        width: 100%;
+      }
+
+      .GREEN-NAV-last {
+        height: 30vh;
+        justify-content: space-evenly;
+      }
+      .green-lef{
+        width: 100%;
+        font: normal normal bold 22px/28px Helvetica;
+      }
+      .green-rig{
+        height: 30%;
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        padding: 0;
+        
+      }
+      .input{
+        width: 50%;
+      }
+      .green-wit{
+        width: 50vw;
+      }
+      
+      .green-blue-button{
+        width: 30vw;
+        font: normal normal bold 12px Helvetica;
+        justify-self: end;
+      }
+      
+        .fourth-page{
+            flex-direction: column;
+            height: auto;
+            background-size: cover;
+            background-position: left;
+        }
+        .fourth-left{
+            width: 100%;
+            
+        }
+        .four-left-text{
+            font-size: 3vh;
+        }
+        .fourth-right{
+            align-items: center;
+            justify-content: center;
+            
+            height: 70vh;
+            width: 100%;
+        }
+        
+        .fourth-box{
+            height:23%;
+        }
+        .big{
+            font-size: 4vw;
+        }
+
+        .fourth-p{
+            font-size: 1vh;
+        }
+
+        .fifth-page{
+            flex-direction: column-reverse;
+            height: auto;
+        }
+        .fif-left{
+            height: 50vh;
+            width: 100%;
+            padding: 0;
+        }
+        .fif-rig{
+            height: 50vh;
+            width: 100%;
+            
+        }
+        .fif-blue-box{
+            height: 70%;
+        }
+
+        .blue-b-text{
+            
+            font: normal normal bold 22px/28px Helvetica;
+        }
+
+        .fif-blue-box{
+            width: 100%;
+        }
+
+        .fif-button{
+            justify-self: center;
+        }
+
+        .sixth-page{
+            height: auto;
+            flex-direction: column;
+            padding: 5vw;
+            align-items: center;
+        }
+
+        .six-main-text{
+            text-align: center;
+font: normal normal normal 44px/46px Flood Std;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+        }
+        .six-main-div1{
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+            margin-bottom: 5vh;
+        }
+        .six-main-div2{
+            flex-direction: column-reverse;
+            width: 100%;
+            height: 90vh;
+        }
+        .six-img{
+            width: 100%;
+            height: 80%;
+        }
+        .six-div-text{
+            height: 70vh;
+            width: 100%;
+        }
+        .six-mid-box1{
+            text-align: center;
+font: normal normal bold 5vw Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+height: 10%;
+            
+        }
+
+        .six-mid-box2{
+            text-align: center;
+font: normal normal 3vw Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+        }
+        .square-box{
+            position: absolute;
+            top: -47vh;
+            left: 20vw;
+            z-index: 2;
+        }
+        .six-small-box{
+            justify-content: center;
+        }
+
+        .bottom {
+          
+          
+          grid-template-columns: 1fr 1fr;
+        }
+      
+        .b-title {
+          font-size: 18px;
+          width: 30vw; /* Reduce font size for smaller screens */
+        }
+      
+        .b-cards {
+          
+          width: 40vw; /* Take full column width on small screens */
+        }
+      
+        .b-image {
+          width: 100%; /* Reduce image height on small screens */
+        }
+       
+      
+    
+    
+
+  }  
